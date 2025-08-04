@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Barajas.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8bb5722787.js"crosorigin="anonymous"></script>
+    <title>studyBuddy</title>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Suzeth's Gallery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a href="#about-me" class="nav-link">About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#art-gallery" class="nav-link">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Hi, I'm Suzeth Barajas Perez. Welcome to my portfolio.</h1>
+            <a href="images/SuzethBarajasPerez-Resume_CV.pdf" target="_blank" class="btn btn-dark download-button">
+              <i class="fas fa-file-download"></i> Resume
+            </a>
+            <a href="mailto:suzeth.barajas.23@simonscholars.org" class="btn btn-outline-light download-button">
+              <i class="fas fa-envelope"></i> Email Me
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image" src="images/removebgbunnypng.png" alt="Portfolio showcase">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Features -->
+    <section id="about-me">
+      <div class="about-container">
+        <h2>About Me</h2>
+        <p>Creative and bilingual visual artist and designer studying Interdisciplinary Computing and the Arts at the University of California San Diego. Passionate about graphic design, branding, digital media, visual storytelling and the arts. Offers a strong eye for aesthetics, experience in Adobe, some programming languages, and a drive to craft impactful designs across platforms—from logos to merchandise to social media content. A fast learner and clear communicator with a collaborative spirit.</p>
+      </div>
+    </section>
+
+    <!-- Art Gallery -->
+    
+    <section id="art-gallery">
+      <div id="art-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active text-center">
+            <img class="art-image" src="images/merch.png" alt="Merch Artwork">
+            <h3>Merch, logos, and more</h3>
+          </div>
+
+          <div class="carousel-item text-center">
+            <img class="art-image" src="images/VibrantStories.png" alt="Museum of the hypocampus">
+            <h3>"Vibrant Stories"</h3>
+            <p>Digital piece from the Museum Of The Hypocampus collection</p>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#art-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#art-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+   
+
+<!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center mb-4">Get in Touch</h2>
+        <p class="text-center mb-5">Have a question, commission request, or just want to connect? Send me a message!</p>
+        
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-dark mt-3">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+<!-- Thank You Message -->
+<section id="cta">
+  <h3 class="cta-heading" style="color: #F8F8F8;">Thank you for visiting my portfolio website!</h3>
+  <p class="cta-subtext">If you'd like to get in touch, don't hesitate to reach out:</p>
+  <p class="cta-email">
+    <a href="mailto:suzeth.barajas.23@simonscholar.org">suzeth.barajas.23@simonscholar.org</a>
+    <span class="email-separator"> | </span>
+    <a href="mailto:sbarajasperez@ucsd.edu">sbarajasperez@ucsd.edu</a>
+  </p>
+</section>
+
+
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+  </body>
+</html>
